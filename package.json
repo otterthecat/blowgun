@@ -1,0 +1,27 @@
+{
+  "name": "blowgun",
+  "version": "0.1.0",
+  "description": "semi-agnostic templates for node streams",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otterthecat/blowgun"
+  },
+  "keywords": [
+    "template",
+    "stream",
+    "otc"
+  ],
+  "author": "Otter the Cat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otterthecat/blowgun/issues"
+  },
+  "homepage": "https://github.com/otterthecat/blowgun"
+}
