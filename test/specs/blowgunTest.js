@@ -9,6 +9,7 @@ chai.use(sinonChai);
 // modules to test
 // /////////////////////////////////////////////////////////
 var blowgun = require('../../lib/blowgun');
+var Transform = require('stream').Transform;
 
 describe('blowgun', function () {
     'use strict';
@@ -20,5 +21,12 @@ describe('blowgun', function () {
     it('should return a function when called', function(){
       var returnValue = blowgun({});
       returnValue.should.be.a('function');
+    });
+
+    describe('returned function should be an instance of Transform', function(){
+
+      var returnValue = blowgun({});
+      var transformInstance = returnValue({});
+      transformInstance.should.be.an.instanceOf(Transform);
     });
 });
