@@ -5,4 +5,11 @@ Blowgun will currently work with
 [handlebars](https://github.com/wycats/handlebars.js),
 and [jade](https://github.com/jadejs/jade) templates.
 
+## Usage
 Please refer to the [example](https://github.com/otterthecat/blowgun/blob/master/examples/index.js) for usage.
+
+## Run Tests
+```javascript
+npm install
+npm test
+```

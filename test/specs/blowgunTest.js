@@ -8,7 +8,7 @@ chai.use(sinonChai);
 
 // modules to test
 // /////////////////////////////////////////////////////////
-var blowgun = require('../../lib/blowgun');
+var blowgun = require('../../index');
 var Transform = require('stream').Transform;
 
 describe('blowgun', function () {
