@@ -4,6 +4,8 @@
   are not included in this directory.
 */
 
+// require node's file system module so we can
+// make our read/write streams
 var fs = require('fs');
 
 // we're requiring the template engine "ejs" below.
