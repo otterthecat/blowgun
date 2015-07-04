@@ -1,6 +1,6 @@
 {
   "name": "blowgun",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "semi-agnostic templates for node streams",
   "homepage": "https://github.com/otterthecat/blowgun",
   "bugs": "https://github.com/otterthecat/blowgun/issues",
