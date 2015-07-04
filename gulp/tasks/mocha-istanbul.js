@@ -5,14 +5,14 @@ var sources = require('../config/sources');
 var options = require('../config/options');
 
 module.exports = function (callback) {
-    'use strict';
+  'use strict';
 
-    gulp.src(sources.module)
-        .pipe(istanbul())
-        .on('finish', function () {
-            gulp.src(sources.test)
-                .pipe(mocha(options.mocha))
-                .pipe(istanbul.writeReports(options.istanbul))
-                .on('end', callback);
-        });
+  gulp.src(sources.module)
+    .pipe(istanbul())
+    .on('finish', function () {
+      gulp.src(sources.test)
+        .pipe(mocha(options.mocha))
+        .pipe(istanbul.writeReports(options.istanbul))
+        .on('end', callback);
+    });
 };

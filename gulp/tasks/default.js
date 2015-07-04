@@ -1,5 +1,5 @@
 module.exports = [
-    'lint',
-    'complexity',
-    'mocha:istanbul'
+  'lint',
+  'complexity',
+  'mocha:istanbul'
 ];

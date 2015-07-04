@@ -5,8 +5,8 @@ var options = require('../config/options').mocha;
 
 
 module.exports = function () {
-    'use strict';
+  'use strict';
 
-    return gulp.src(sources)
-                .pipe(mocha(options));
+  return gulp.src(sources)
+    .pipe(mocha(options));
 };

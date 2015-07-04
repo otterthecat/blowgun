@@ -1,4 +1,4 @@
 module.exports = [
-    'plato',
-    'mocha:istanbul'
+  'plato',
+  'mocha:istanbul'
 ];
