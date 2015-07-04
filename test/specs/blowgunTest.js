@@ -23,10 +23,12 @@ describe('blowgun', function () {
       returnValue.should.be.a('function');
     });
 
-    describe('returned function should be an instance of Transform', function(){
+    describe('returned function from call', function(){
 
-      var returnValue = blowgun({});
-      var transformInstance = returnValue({});
-      transformInstance.should.be.an.instanceOf(Transform);
+      it('should be an instance of Transform', function(){
+        var returnValue = blowgun({});
+        var transformInstance = returnValue({});
+        transformInstance.should.be.an.instanceOf(Transform);
+      });
     });
 });
