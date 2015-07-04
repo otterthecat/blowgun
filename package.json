@@ -2,28 +2,28 @@
   "name": "blowgun",
   "version": "0.1.0",
   "description": "semi-agnostic templates for node streams",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
+  "homepage": "https://github.com/otterthecat/blowgun",
+  "bugs": "https://github.com/otterthecat/blowgun/issues",
+  "author": {
+    "name": "Otter the Cat",
+    "email": "otc@otterthecat.com"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=1.4.28"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/otterthecat/blowgun"
+    "url": "https://github.com/otterthecat/blowgun.git"
   },
-  "keywords": [
-    "template",
-    "stream",
-    "otc"
-  ],
-  "author": "Otter the Cat",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp mocha:istanbul"
+  },
+  "directories": {
+    "example": "examples"
+  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/otterthecat/blowgun/issues"
-  },
-  "homepage": "https://github.com/otterthecat/blowgun",
   "devDependencies": {
     "chai": "^2.1.0",
     "gulp": "^3.8.10",
@@ -39,5 +39,10 @@
     "mocha": "^2.1.0",
     "sinon": "^1.12.2",
     "sinon-chai": "^2.7.0"
-  }
+  },
+  "keywords": [
+    "template",
+    "stream",
+    "otc"
+  ]
 }
